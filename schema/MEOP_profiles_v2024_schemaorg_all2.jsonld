@@ -1,0 +1,295 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/x-netcdf",
+    "contentUrl": "https://example.org/data/MEOP_profiles_v2024.nc"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "cdm_altitude_proxy",
+      "value": "PRES",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "cdm_data_type",
+      "value": "TrajectoryProfile",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "cdm_profile_variables",
+      "value": "CYCLE_NUMBER",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "cdm_trajectory_variables",
+      "value": "PLATFORM_NUMBER",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "citation",
+      "value": "The marine mammal data were collected and made freely available by the International MEOP Consortium and the national programs that contribute to it (http://www.meop.net).",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Conventions",
+      "value": "CF-1.6 Sea-mammals-1.1, COARDS, ACDD-1.3",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "creator_type",
+      "value": "institution",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "creator_url",
+      "value": "http://www.meop.net",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "data_type",
+      "value": "Marine animals profile data",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "date_update",
+      "value": "2024-03-07T10:40:00Z",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "distribution_statement",
+      "value": "Follow MEOP data policy standards, cf. http://www.meop.net/the-dataset/data-access.html. Data available free of charge. User assumes all risk for use of data. User must display citation in any publication or product using data. User must contact PI prior to any commercial use of data",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Easternmost_Easting",
+      "value": "141.3597",
+      "type": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "featureType",
+      "value": "TrajectoryProfile",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "format_version",
+      "value": "1.1",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "geospatial_lat_units",
+      "value": "degrees_north",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "geospatial_lon_units",
+      "value": "degrees_east",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "history",
+      "value": "2025-06-05T17:13:04Z (local files)\n2025-06-05T17:13:04Z https://data.pmel.noaa.gov/generic/erddap/tabledap/MEOP_profiles_v2024.ncCF?deployment_code%2Cwmo_platform_code%2Csmru_platform_code%2Cspecies%2CDATA_TYPE%2CFORMAT_VERSION%2CHANDBOOK_VERSION%2CREFERENCE_DATE_TIME%2CDATE_CREATION%2CDATE_UPDATE%2CPLATFORM_NUMBER%2CPROJECT_NAME%2CPI_NAME%2CCYCLE_NUMBER%2CDIRECTION%2CDATA_CENTRE%2CDC_REFERENCE%2CDATA_STATE_INDICATOR%2CDATA_MODE%2CINST_REFERENCE%2CWMO_INST_TYPE%2Ctime%2CJULD_QC%2CJULD_LOCATION%2Clatitude%2Clongitude%2CPOSITION_QC%2CPOSITIONING_SYSTEM%2CPROFILE_PRES_QC%2CPROFILE_PSAL_QC%2CPROFILE_TEMP_QC%2CPRES%2CPRES_QC%2CPRES_ADJUSTED%2CPRES_ADJUSTED_QC%2CPRES_ADJUSTED_ERROR%2CTEMP%2CTEMP_QC%2CTEMP_ADJUSTED%2CTEMP_ADJUSTED_QC%2CTEMP_ADJUSTED_ERROR%2CPSAL%2CPSAL_QC%2CPSAL_ADJUSTED%2CPSAL_ADJUSTED_QC%2CPSAL_ADJUSTED_ERROR%2Cdata_assembly_center%2Creference_file_name%2Cnation%2Cmeop_platform_code%2Clocation%2Cinstr_id%2Cptt%2Cloc_algorithm%2Cfirmware_parameters%2Cfirmware_version%2Cthermal_lag_adjustment&time%3E=2024-02-15T00%3A00%3A00Z&time%3C=2024-02-22T12%3A45%3A00Z",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "id",
+      "value": "MEOP_profiles_v2024",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "infoUrl",
+      "value": "http://www.meop.net",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "is_the_data_public",
+      "value": "yes: data can be used freely providing that data owner is properly cited (see meop.net for citing information)",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "naming_authority",
+      "value": "MEOP consortium (Marine Mammals Exploring the Oceans Pole to Pole)",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Northernmost_Northing",
+      "value": "-8.508",
+      "type": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "number_light_profiles",
+      "value": "0.0",
+      "type": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "sourceUrl",
+      "value": "(local files)",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Southernmost_Northing",
+      "value": "-69.3111",
+      "type": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "standard_name_vocabulary",
+      "value": "CF Standard Name Table v70",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "subsetVariables",
+      "value": "deployment_code,wmo_platform_code,smru_platform_code,species",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "version_database",
+      "value": "MEOP-CTD_2024-03-08",
+      "type": "Text"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Westernmost_Easting",
+      "value": "32.0783",
+      "type": "Number"
+    }
+  ],
+  "name": "MEOP animal profiles, v2024",
+  "description": "MEOP animal profiles, v2024",
+  "creator": {
+    "@type": "Organization",
+    "name": "MEOP"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MEOP"
+  },
+  "keywords": [
+    "available",
+    "calibration",
+    "centre",
+    "charge",
+    "coded",
+    "creation",
+    "cycle",
+    "CYCLE_NUMBER",
+    "data",
+    "DATA_CENTRE",
+    "DATA_MODE",
+    "DATA_STATE_INDICATOR",
+    "DATA_TYPE",
+    "database",
+    "date",
+    "DATE_CREATION",
+    "DATE_UPDATE",
+    "day",
+    "DC_REFERENCE",
+    "degree",
+    "delayed",
+    "direction",
+    "equation",
+    "file",
+    "flag",
+    "float",
+    "format",
+    "FORMAT_VERSION",
+    "global",
+    "handbook",
+    "HANDBOOK_VERSION",
+    "identifier",
+    "information",
+    "INST_REFERENCE",
+    "instrument",
+    "JULD_LOCATION",
+    "JULD_QC",
+    "julian",
+    "latitude",
+    "list",
+    "local",
+    "longitude",
+    "meop",
+    "mode",
+    "name",
+    "number",
+    "parameter",
+    "parameters",
+    "passed",
+    "PI_NAME",
+    "PLATFORM_NUMBER",
+    "position",
+    "POSITION_QC",
+    "positioning",
+    "POSITIONING_SYSTEM",
+    "pres",
+    "processing",
+    "profile",
+    "PROFILE_PRES_QC",
+    "PROFILE_PSAL_QC",
+    "PROFILE_TEMP_QC",
+    "profiles",
+    "project",
+    "PROJECT_NAME",
+    "psal",
+    "quality",
+    "real",
+    "reference",
+    "REFERENCE_DATE_TIME",
+    "relative",
+    "SCIENTIFIC_CALIB_COEFFICIENT",
+    "SCIENTIFIC_CALIB_EQUATION",
+    "smru",
+    "source",
+    "srdl",
+    "station",
+    "STATION_PARAMETERS",
+    "system",
+    "temperature",
+    "through",
+    "time",
+    "type",
+    "unique",
+    "update",
+    "version",
+    "with",
+    "WMO_INST_TYPE"
+  ],
+  "license": "Follow MEOP data policy standards, cf. http://www.meop.net/the-dataset/data-access.html. Data available free of charge. User assumes all risk for use of data. User must display citation in any publication or product using data. User must contact PI prior to any commercial use of data",
+  "citation": "http://www.meop.net",
+  "measurementTechnique": "Marine mammal observation",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-69.3111 32.0783 -8.508 141.3597"
+    }
+  },
+  "temporalCoverage": "2024-02-15T00:30:00Z/2024-02-22T12:45:00Z"
+}
